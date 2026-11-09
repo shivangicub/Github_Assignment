@@ -1,0 +1,75 @@
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. Creates a new folder for the assignment.
+
+2. git init
+   Initializes a new local Git repository.
+
+3. git status
+   Shows the current repository status and modified or staged files.
+
+4. git add index.html about.html
+   Stages the HTML files for the initial commit.
+
+5. git commit -m "Initial commit"
+   Saves the initial version of the project in Git history.
+
+6. git add index.html
+   Stages changes made to the homepage.
+
+7. git commit -m "Update homepage content"
+   Records the homepage modification in Git history.
+
+8. git branch
+   Lists the branches in the local repository.
+
+9. git switch -c feature
+    Creates and switches to a new branch named feature.
+
+10. git add about.html
+    Stages the changes made to the about page.
+
+11. git commit -m "Add feature branch content"
+    Saves the feature branch changes as a commit.
+
+12. git switch main
+    Switches back to the main branch.
+
+13. git merge --no-ff feature -m "Merge feature branch into main"
+    Merges the feature branch into main and creates a merge commit.
+
+14. git log --oneline --graph --decorate --all
+    Displays commit history for all branches in graph form.
+
+15. git add .gitignore
+    Stages the .gitignore file.
+
+16. git commit -m "Add gitignore rules"
+    Saves the Git ignore rules in the repository.
+
+17. git add index.html
+    Stages the temporary change used for the undo demonstration.
+
+18. git commit -m "Add temporary change for undo demonstration"
+    Creates an additional commit for demonstrating the undo operation.
+
+19. git revert HEAD
+    Reverses the latest commit by creating a new revert commit while preserving history.
+
+20. git log --oneline -5
+    Displays the five most recent commits.
+
+21. git remote -v
+    Displays the remote repository URLs configured for fetch and push.
+
+22. git remote add origin <GitHub-Repository-URL>
+    Connects the local repository to the GitHub remote repository.
+
+23. git remote remove origin
+    Removes the configured remote repository connection.
+
+24. git remote set-url origin <GitHub-Repository-URL>
+    Changes the URL of an existing remote repository.
+
+25. git push -u origin --all
+    Pushes all local branches and their commit histories to GitHub.
